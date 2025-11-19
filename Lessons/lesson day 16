@@ -1,0 +1,26 @@
+'''
+Loop while
+
+forma geral .
+while expressao booelan
+  // execucao do loop 
+
+*O bloco do while sera repetido quando a expressao booleana for verdadeira .
+expressoes booleanas = toda expressao onde resultado verdaeiro ou falso
+
+exemplo .
+
+num = 5
+num < 5
+
+*Em um loop while se torna importante cuidarmos do criteiro de parada (num = num + 1), se tirarmor se torna um loop infinito , entao sempre lembrar do criteiro de parada
+caso nao precisamos do loop infinito (existe alguns casos como alguns jogos capturando atualizaçao de telas , comandos teclado etc...)
+'''
+num = 1
+while num<10:
+    print(num)
+    num = num + 1
+    
+answer = ''
+while answer != 'sim':
+    answer = input('Recebeu? ')
